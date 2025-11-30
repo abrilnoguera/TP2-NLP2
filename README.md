@@ -4,8 +4,6 @@ Un **chatbot inteligente** que responde preguntas sobre mi perfil profesional us
 
 Funciona como una versión conversacional de mi CV, ideal para reclutadores, entrevistas técnicas y networking profesional.
 
-👉 **Demo en vivo**: *Próximamente*
-
 ---
 
 ## 🎯 ¿Qué hace este proyecto?
@@ -132,24 +130,6 @@ GROQ_API_KEY=tu_clave_de_groq
 2. Coloca tu foto en `docs/foto.jpg` (o actualiza la ruta en `rag_app.py`)
 3. Edita `docs/metadata.json` con tu información personal
 
-Ejemplo de `metadata.json`:
-
-```json
-{
-  "nombre": "Tu Nombre",
-  "titulo": "Data Scientist",
-  "profesion": "Científico de Datos",
-  "ubicacion": "Buenos Aires, Argentina",
-  "fecha_nacimiento": "2000-01-01",
-  "email": "tu@email.com",
-  "linkedin": "linkedin.com/in/tu-perfil",
-  "nivel_ingles": "Avanzado (C1)",
-  "seniority": "Semi Senior",
-  "experiencia_anios": 3,
-  "skills_clave": ["Python", "Machine Learning", "SQL"]
-}
-```
-
 ---
 
 ## 🚀 Uso
@@ -258,31 +238,6 @@ En `rag_ingest.py`:
 def chunkear_texto(texto: str, max_chars=700, overlap=100):
     # max_chars: Tamaño de cada chunk
     # overlap: Solapamiento entre chunks (evita perder contexto)
-```
-
----
-
-## 🎨 Personalización de la UI
-
-### Cambiar colores y estilos
-
-Edita el CSS en `rag_app.py`:
-
-```python
-st.markdown("""
-<style>
-body { background-color: #0f172a; }  /* Fondo oscuro */
-.chat-user { background:#334155; }    /* Mensajes del usuario */
-.chat-bot { background:#1e293b; }     /* Mensajes del bot */
-</style>
-""", unsafe_allow_html=True)
-```
-
-### Modificar header
-
-```python
-st.markdown("<h1 class='header-name'>Tu Nombre</h1>", unsafe_allow_html=True)
-st.markdown("<div class='header-sub'>Tu título profesional</div>", unsafe_allow_html=True)
 ```
 
 ---
