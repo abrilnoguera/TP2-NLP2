@@ -398,20 +398,3 @@ Este proyecto fue desarrollado como parte del **TP2 de Procesamiento de Lenguaje
 **Trabajo Práctico**: TP2 - RAG Application  
 **Año**: 2025
 
----
-
-## ⭐ Si te gustó este proyecto
-
-- Dale una ⭐ en GitHub
-- Compartilo en LinkedIn
-- Usalo como base para tu propio CV Assistant
-
----
-
-<div align="center">
-
-**Made with ❤️ and 🤖 by Abril Noguera**
-
-*"Turning my CV into an AI-powered conversation"*
-
-</div>
